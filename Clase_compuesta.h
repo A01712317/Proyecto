@@ -2,6 +2,8 @@
 #include <string>
 #include "clase1.h"
 using namespace std;
+#ifndef CLASE_COMPUESTA_H_
+#define CLASE_COMPUESTA_H_
 class mayoreo_vs_menudeo{
     private:
         mayoreo Mayoreo;
@@ -11,4 +13,13 @@ class mayoreo_vs_menudeo{
             Mayoreo.setprecio(pm);
             Menudeo.setprecio(pp);
         }
+
+        float getPrecioMenudeo() {
+            return Menudeo.getprecio();
+        }
+
+        float getPrecioMayoreo() {
+            return Mayoreo.getprecio();
+        }
 };
+#endif
