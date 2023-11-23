@@ -3,6 +3,7 @@
 #include "clase1.h"
 #include "clase2.h"
 #include "clase3.h"
+#include "Clase_compuesta.h"
 using namespace std;
 void menu(){
     //Imprime las opciones que va a tener el sistema
@@ -12,7 +13,7 @@ void menu(){
     cout << "3. Mostrar un producto de mayoreo. \n";
     cout << "4. Mostrar salario de un empleado casual. \n";
     cout << "5. Mostrar salario de un empleado fijo \n";
-    cout << "12. Salir \n";
+    cout << "6. Ver la diferencia entre un precio mayorista y uno minorista \n";
 }
 int main(){
     int opcion;
@@ -72,10 +73,17 @@ int main(){
             std::cout<<"Empleado: "<<e2.getnombre()<<std::endl;  
             std::cout<<"Salario: $"<<e2.getsalario()<<std::endl;
             break;}
+
+        case 6:{
+            // Creas un objeto de la clase 'mayoreo_vs_menudeo'
+            mayoreo_vs_menudeo s("Producto", 10.0, 10, 5.0, 11.5, 13.5);
+            // Imprimes el precio al menudeo y el precio al mayoreo del producto
+            std::cout << "Precio al menudeo: $" << s.getPrecioMenudeo() << std::endl;
+            std::cout << "Precio al mayoreo: $" << s.getPrecioMayoreo() << std::endl;
+            break;}
         default:
             cout << "Opcion invalida" << endl;
             break;
     }
     return 0;
 }  
-
