@@ -1,5 +1,6 @@
 #include <string>
-
+#ifndef CLASE1_H_
+#define CLASE1_H_
 // Clase 'producto'
 class producto{
     private:
@@ -27,7 +28,6 @@ class producto{
 class menudeo: public producto {
     private:
         float precio;  // Precio del producto al menudeo
-        
     public: 
         // Constructor de la clase 'menudeo'
         menudeo(std::string n, float co, int c, float cap) : producto(n, co, c, cap) {}
@@ -58,3 +58,4 @@ class mayoreo: public producto {
         // Método para establecer el precio al mayoreo
         void setprecio(float p){precio = p;}
 };
+#endif
