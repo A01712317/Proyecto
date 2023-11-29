@@ -1,3 +1,13 @@
+/*
+Proyecto Tienda
+Emilio Alejandro Cruz Escamilla
+A01712317
+30/11/2023
+*/
+/*Esta función sirve para
+registrar los datos de los
+tipos de empleados y definir 
+su tipo de salario*/
 #include <string>
 
 // Clase 'empleados'
