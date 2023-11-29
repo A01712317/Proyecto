@@ -1,5 +1,5 @@
 # Proyecto: Aministración de una tienda     Alumno: Emilio Alejandro Cruz Escamilla 
-Objetivo: Estos son mis avances de mi proyecto para programación orientada a objetos, sobre la admnistración de una tienda
+Objetivo: Ayudar a la administración de datos de una tienda con funciones que pueden mejorar dicho proceso
 
 Descripción: Este programa esta diseñado para registrar datos de una tienda, y asignarle productos con su respectivos datos, los productos pueden ser de tipo mayorista que será de menor precio a los de tipo de menudeo y podemos ver la diferencia de sus precios a traves de la funcion mayoreo_vs_menudeo .
 
