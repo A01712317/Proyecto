@@ -1,6 +1,16 @@
+/*
+Proyecto Tienda
+Emilio Alejandro Cruz Escamilla
+A01712317
+30/11/2023
+*/
+/*Este es un pprograma planeado para ayudar a
+la funcionalidad de una empresa que se especialice
+en la venta de articulos. Al igual que los 
+datos sobre los productos que ingresan*/
 #include <string>
-#ifndef CLASE1_H_
-#define CLASE1_H_
+#ifndef PRODUCTOS_H_
+#define PRODUCTOS_H_
 // Clase 'producto'
 class producto{
     private:
