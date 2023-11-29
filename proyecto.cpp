@@ -1,12 +1,22 @@
+/*
+Proyecto Tienda
+Emilio Alejandro Cruz Escamilla
+A01712317
+30/11/2023
+*/
+/*Dentro de este archivo podemos 
+inicializar las funciones
+*/
+//Bibliotecas
 #include <iostream>
 #include <string>
-#include "clase1.h"
-#include "clase2.h"
-#include "clase3.h"
-#include "Clase_compuesta.h"
+#include "productos.h"//Objetos:
+#include "tienda.h"
+#include "empleados.h"
+#include "mayoreoomenudeo.h"
 
 using namespace std;
-
+//Opciones
 void menu() {
     // Imprime las opciones que va a tener el sistema
     cout << "Menu:\n";
@@ -30,12 +40,10 @@ int main() {
         // Leer índice que selecciona la opción del menú
         cout << "Ingrese una opcion del menu (0 para salir): " << endl;
         cin >> opcion;
-
         if (opcion == 0) {
             // Salir del bucle si la opción es 0
             break;
         }
-
         // Switch donde dependiendo la elección efectúa un diferente procedimiento
         switch (opcion) {
             case 1: {
