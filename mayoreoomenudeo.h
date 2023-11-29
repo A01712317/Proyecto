@@ -1,9 +1,19 @@
+/*
+Proyecto Tienda
+Emilio Alejandro Cruz Escamilla
+A01712317
+30/11/2023
+*/
+/*Aqui podemos comparar cuanto más 
+conviene comprar productos al
+mayoreo por su diferencia de precio
+que mostrará este código*/
 #include <iostream>
 #include <string>
-#include "clase1.h"
+#include "productos.h"
 using namespace std;
-#ifndef CLASE_COMPUESTA_H_
-#define CLASE_COMPUESTA_H_
+#ifndef MAYOREO_MENUDEO_H_
+#define MAYOREO_MENUDEO_H_
 class mayoreo_vs_menudeo {
 private:
     mayoreo Mayoreo;
